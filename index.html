@@ -1,481 +1,441 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jeremy López | Portafolio</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-  <link href="vendor/nivo-lightbox/nivo-lightbox.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" type="text/css" />
-  <link href="vendor/animate.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="vendor/html5shiv.js"></script>
-    <script src="vendor/respond.min.js"></script>
-  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jeremy López — AI Product &amp; Full-Stack Engineer</title>
+  <meta name="description" content="Jeremy López — senior full-stack engineer who ships AI products: LLM features, streaming AI interfaces and custom GPTs, built with React, Next.js, TypeScript, Node.js and Python.">
+  <meta name="theme-color" content="#0C0F1F">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jeremy López — AI Product &amp; Full-Stack Engineer">
+  <meta property="og:description" content="I build AI products people actually use. LLM features · React / Next.js · Node.js · Python · Cloud.">
+  <meta property="og:url" content="https://www.jalopez.com/">
+  <link rel="canonical" href="https://www.jalopez.com/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230C0F1F'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23FF7A59'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/main.js" defer></script>
 </head>
-<body data-spy="scroll" data-target="#side-menu">
-  <div class="loader" id="page-loader">
-    <div class="loading-wrapper">
-      <div class="tp-loader spinner"></div>
-      <div class="side-menu-name">
-        Jeremy <strong>López</strong>
-      </div>
-      <p class="side-menu-job">Senior Full Stack Web Developer</p>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand"><span class="brand-dot" aria-hidden="true"></span>Jeremy López</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#ai">AI</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
     </div>
-  </div>
-  <div class="side-menu-open hidden-sm hidden-xs">
-    <a href="#" class="btn btn-default side-menu-button"><i class="fa fa-bars"></i> MENU</a>
-  </div>
-  <div class="side-menu">
-    <span id="side-menu-close"><i class="fa fa-times"></i></span>
-    <div class="side-menu-name">
-      Jeremy <strong>López</strong>
-    </div>
-    <p class="side-menu-job">Senior Full Stack Web Developer</p>
-    <nav id="side-menu" class="side-menu-este">
-      <ul class="nav side-menu-nav">
-        <li><a href="#intro"><i class="fa fa-angle-right"></i> Intro</a></li>
-        <li><a href="#education"><i class="fa fa-angle-right"></i> Education</a></li>
-        <li><a href="#works"><i class="fa fa-angle-right"></i> Work Experience</a></li>
-        <li><a href="#skills"><i class="fa fa-angle-right"></i> Skills</a></li>
-        <li><a href="#interests"><i class="fa fa-angle-right"></i> Interests</a></li>
-      </ul>
-    </nav>
-  </div>
-  <section id="content-body" class="container animated">
-    <div class="row" id="intro">
-      <div class="col-md-10 col-sm-10  col-md-offset-2 col-sm-offset-1 clearfix top-colors">
-        <div class="top-color top-color1"></div>
-        <div class="top-color top-color2"></div>
-        <div class="top-color top-color3"></div>
-        <div class="top-color top-color1"></div>
-        <div class="top-color top-color2"></div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero" data-spotlight>
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="float-shape float-square" aria-hidden="true"></div>
+      <div class="float-shape float-circle" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="pill rise"><span class="pulse-dot" aria-hidden="true"></span>Senior full-stack engineer · AI products</p>
+          <h1 class="hero-title rise d1">I build AI products people actually use.</h1>
+          <p class="hero-role rise d2">Lately: <span class="accent" data-rotator>conversational shopping assistants.</span><span class="caret" aria-hidden="true"></span></p>
+          <p class="hero-lead rise d3">I'm Jeremy, a senior full-stack engineer from Santo Domingo with 8+ years shipping web products. Lately that means LLM features in production — on a React / Next.js and TypeScript front end, with Node.js (NestJS) and Python behind it.</p>
+          <div class="hero-actions rise d4">
+            <a href="#work" class="btn btn-primary">View my work</a>
+            <a href="https://github.com/jalopez526" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/jalopez526/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- Demo chat: scripted answers streamed token by token -->
+        <aside class="chat rise d3" aria-label="Ask about Jeremy (demo)" data-chat>
+          <div class="chat-head">
+            <span class="chat-title"><span class="chat-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+            </span>ask-jeremy</span>
+            <span class="chat-badge">demo · pre-written answers</span>
+          </div>
+          <div class="chat-log" data-chat-log>
+            <div class="msg msg-bot">Hi! I'm a tiny demo of a streaming AI interface. Pick a question and I'll stream the answer.</div>
+          </div>
+          <div class="sr-only" aria-live="polite" data-chat-announce></div>
+          <div class="chat-prompts" data-chat-prompts hidden>
+            <button type="button" class="prompt" data-q="built">What has Jeremy built with AI?</button>
+            <button type="button" class="prompt" data-q="stream">How does he stream AI to the UI?</button>
+            <button type="button" class="prompt" data-q="tools">Does he code with AI?</button>
+            <button type="button" class="prompt" data-q="stack">Is he only an AI person?</button>
+          </div>
+        </aside>
       </div>
-      <div class="col-md-10 col-sm-10 col-md-offset-2 col-sm-offset-1 resume-container">
-        <div class="profile-intro row">
-          <div class="col-md-4 profile-col">
-            <div class="profile-pic">
-              <div class="profile-border">
-                <img src="img/avatar.jpg" alt="">
-              </div>
+    </section>
+
+    <!-- HOW I WORK WITH AI -->
+    <section id="ai" class="section container">
+      <header class="section-head reveal">
+        <span class="eyebrow">How I work with AI</span>
+        <h2 class="section-title">AI where it counts — and the full stack to ship it.</h2>
+      </header>
+      <div class="pillars">
+        <article class="pillar reveal">
+          <span class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+          <h3 class="pillar-title">In the product</h3>
+          <p class="pillar-body">LLM features people actually touch: conversational shopping, AI image generation, custom GPTs. Streamed over SSE and WebSockets so the interface responds in real time instead of hiding behind a spinner.</p>
+          <ul class="tags"><li>OpenAI</li><li>Anthropic</li><li>SSE</li><li>WebSockets</li></ul>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></span>
+          <h3 class="pillar-title">In the data</h3>
+          <p class="pillar-body">Models that read and sort: TensorFlow computer vision on handwritten medical documents, Pandas classification, and analytics pipelines that turn AI conversations into topics merchants can act on.</p>
+          <ul class="tags"><li>TensorFlow</li><li>Pandas</li><li>FastAPI</li><li>PostgreSQL</li></ul>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M13.5 5l-3 14"/></svg></span>
+          <h3 class="pillar-title">In how I build</h3>
+          <p class="pillar-body">Claude Code and Cursor every day, with MCP connected to Linear and GitHub so the assistant works from real tickets and repo context — faster delivery without lowering the bar.</p>
+          <ul class="tags"><li>Claude Code</li><li>Cursor</li><li>MCP</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section id="work" class="section container">
+      <header class="section-head reveal">
+        <span class="eyebrow">Selected work</span>
+        <h2 class="section-title">AI products I helped ship.</h2>
+      </header>
+
+      <div class="bento">
+        <article class="card card-wide reveal">
+          <div class="card-top"><span class="card-num">01</span><span class="ai-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>AI</span><span class="card-client">Swap Commerce · Paul Smith</span></div>
+          <h3 class="card-title">Live AI virtual try-on</h3>
+          <p class="card-body">Avatar creation with photo capture and age verification, AI image-generation jobs streamed live to the browser, and secure private-media delivery on a React 19 server-rendered app.</p>
+          <ul class="tags"><li>React 19</li><li>SSE</li><li>WebSockets</li><li>GCP</li></ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-top"><span class="card-num">02</span><span class="ai-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>AI</span><span class="card-client">Swap Commerce</span></div>
+          <h3 class="card-title">Conversational shopping assistant</h3>
+          <p class="card-body">The shopping experience around the AI assistant — wardrobe and bag flows, buy-the-outfit journeys, multi-currency — updated in real time over WebSockets and SSE.</p>
+          <ul class="tags"><li>React 19</li><li>NestJS</li><li>Redis</li></ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-top"><span class="card-num">03</span><span class="ai-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>AI</span><span class="card-client">Truelogic · MileIQ</span></div>
+          <h3 class="card-title">Custom GPTs &amp; chatbots</h3>
+          <p class="card-body">A custom GPT on OpenAI and Anthropic models that processes and analyzes company-specific data, plus an OpenAI-powered chatbot and Pandas data classification at MileIQ.</p>
+          <ul class="tags"><li>OpenAI</li><li>Anthropic</li><li>Python</li></ul>
+        </article>
+        <article class="card card-wide reveal">
+          <div class="card-top"><span class="card-num">04</span><span class="ai-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>AI</span><span class="card-client">Grupo Humano</span></div>
+          <h3 class="card-title">AI medical-document kiosk</h3>
+          <p class="card-body">A React kiosk that read handwritten medical documents with TensorFlow computer-vision models, backed by Node.js and Spring Boot APIs.</p>
+          <ul class="tags"><li>React</li><li>TensorFlow</li><li>Express</li><li>Java</li></ul>
+        </article>
+        <article class="card card-full reveal">
+          <div class="card-top"><span class="card-num">05</span><span class="card-client">Swap Commerce · Truelogic</span></div>
+          <h3 class="card-title">Full-stack foundations</h3>
+          <p class="card-body">What the AI runs on: a merchant analytics pipeline (React → WebSockets → FastAPI ETL → PostgreSQL → dashboards), a multi-currency FX subsystem shipped to GKE with Helm and ArgoCD, OAuth hardening against CSRF and session fixation, and Storybook design systems.</p>
+          <ul class="tags"><li>NestJS</li><li>FastAPI</li><li>PostgreSQL</li><li>GKE</li><li>ArgoCD</li><li>Storybook</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section container">
+      <div class="stack-box reveal">
+        <div class="stack-side">
+          <span class="eyebrow">Stack</span>
+          <h2 class="section-title section-title-sm">Pick a layer.</h2>
+          <div class="tablist" role="tablist" aria-label="Skill groups" data-tabs>
+            <button type="button" role="tab" id="tab-ai" aria-controls="panel-ai" aria-selected="true">AI / LLM <span class="count">07</span></button>
+            <button type="button" role="tab" id="tab-fe" aria-controls="panel-fe" aria-selected="false" tabindex="-1">Frontend <span class="count">10</span></button>
+            <button type="button" role="tab" id="tab-be" aria-controls="panel-be" aria-selected="false" tabindex="-1">Backend <span class="count">08</span></button>
+            <button type="button" role="tab" id="tab-data" aria-controls="panel-data" aria-selected="false" tabindex="-1">Data &amp; cloud <span class="count">08</span></button>
+            <button type="button" role="tab" id="tab-lang" aria-controls="panel-lang" aria-selected="false" tabindex="-1">Languages <span class="count">03</span></button>
+            <button type="button" role="tab" id="tab-qa" aria-controls="panel-qa" aria-selected="false" tabindex="-1">Quality &amp; CI <span class="count">06</span></button>
+          </div>
+        </div>
+
+        <div class="stack-panels">
+          <div role="tabpanel" id="panel-ai" aria-labelledby="tab-ai" class="panel">
+            <p class="panel-caption">// Shipping LLM features to real users</p>
+            <ul class="skill-list"><li>LLM features</li><li>OpenAI</li><li>Anthropic</li><li>Claude Code</li><li>Cursor</li><li>MCP</li><li>TensorFlow</li></ul>
+          </div>
+          <div role="tabpanel" id="panel-fe" aria-labelledby="tab-fe" class="panel">
+            <p class="panel-caption">// Where I spend most of my time</p>
+            <ul class="skill-list"><li>React</li><li>Next.js</li><li>React Native</li><li>Redux</li><li>Zustand</li><li>Tailwind</li><li>Material UI</li><li>Storybook</li><li>D3</li><li>WCAG</li></ul>
+          </div>
+          <div role="tabpanel" id="panel-be" aria-labelledby="tab-be" class="panel">
+            <p class="panel-caption">// APIs and real-time transport</p>
+            <ul class="skill-list"><li>Node.js</li><li>NestJS</li><li>Express</li><li>FastAPI</li><li>Apollo GraphQL</li><li>REST</li><li>WebSockets</li><li>SSE</li></ul>
+          </div>
+          <div role="tabpanel" id="panel-data" aria-labelledby="tab-data" class="panel">
+            <p class="panel-caption">// Storage, containers and clusters</p>
+            <ul class="skill-list"><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li><li>Docker</li><li>Kubernetes</li><li>Helm</li><li>AWS</li><li>GCP</li></ul>
+          </div>
+          <div role="tabpanel" id="panel-lang" aria-labelledby="tab-lang" class="panel">
+            <p class="panel-caption">// Daily drivers</p>
+            <ul class="skill-list"><li>TypeScript</li><li>JavaScript</li><li>Python</li></ul>
+          </div>
+          <div role="tabpanel" id="panel-qa" aria-labelledby="tab-qa" class="panel">
+            <p class="panel-caption">// Tests and pipelines</p>
+            <ul class="skill-list"><li>Cypress</li><li>React Testing Library</li><li>Jest</li><li>Vitest</li><li>GitHub Actions</li><li>Jenkins</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <header class="section-head section-head-row reveal">
+        <div>
+          <span class="eyebrow">Experience</span>
+          <h2 class="section-title">The road so far.</h2>
+        </div>
+        <p class="section-note">Filter by technology, then open a stop on the timeline.</p>
+      </header>
+
+      <div class="filters reveal" role="group" aria-label="Filter experience by technology" data-filters>
+        <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter" data-filter="ai" aria-pressed="false">AI / LLM</button>
+        <button type="button" class="filter" data-filter="react" aria-pressed="false">React</button>
+        <button type="button" class="filter" data-filter="next" aria-pressed="false">Next.js</button>
+        <button type="button" class="filter" data-filter="ts" aria-pressed="false">TypeScript</button>
+        <button type="button" class="filter" data-filter="node" aria-pressed="false">Node.js</button>
+        <button type="button" class="filter" data-filter="python" aria-pressed="false">Python</button>
+        <button type="button" class="filter" data-filter="cloud" aria-pressed="false">Cloud</button>
+      </div>
+
+      <ol class="timeline">
+        <li class="job is-open" data-tags="react ts node python ai cloud">
+          <button type="button" class="job-head" aria-expanded="true" aria-controls="job-swap">
+            <span class="job-meta">
+              <span class="job-dates">Jun 2024 – now</span>
+              <span class="job-company">Kake<span class="job-client"> → Swap Commerce</span></span>
+              <span class="job-role">Senior Front-End Engineer · AI-powered fashion shopping</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-swap">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Built the live AI virtual try-on: avatar creation with photo capture and age verification, AI image-generation jobs streamed live to the browser, and secure private-media delivery on a React 19 SSR app.</li>
+                <li>Developed the shopping experience around the AI assistant — wardrobe and bag flows, buy-the-outfit journeys, multi-locale / multi-currency — driven in real time by WebSockets and SSE.</li>
+                <li>Owned storefront auth end to end (email OTP + Google OAuth with cart-restoring sessions) and closed an OAuth CSRF / session-fixation hole with nonce-based state verification.</li>
+                <li>Owned merchant analytics across the stack: React instrumentation → WebSocket ingestion → Python / FastAPI ETL → PostgreSQL → REST metrics APIs → dashboards.</li>
+                <li>Shipped a multi-currency FX subsystem to GKE via Helm and ArgoCD; root-caused a launch-week dropped-events incident and hardened delivery with a buffered outbox.</li>
+                <li>Built the UI foundation in Storybook and rebuilt admin tooling, replacing 4,500+ lines of legacy code.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React 19</li><li data-f="ts">TypeScript</li><li data-f="node">Node.js/NestJS</li><li data-f="python">Python/FastAPI</li><li>WebSockets</li><li>SSE</li><li>PostgreSQL</li><li>Redis</li><li data-f="cloud">GCP</li><li data-f="cloud">GKE</li><li data-f="cloud">Helm</li><li data-f="cloud">ArgoCD</li><li data-f="ai">LLMs</li>
+              </ul>
             </div>
           </div>
-          <div class="col-md-7">
-            <h1 class="intro-title1">Hi, i'm <span class="color1 bold">Jeremy López!</span></h1>
-            <h2 class="intro-title2">Senior Full Stack Web Developer</h2>
-            <p><strong>7 years of software development. Upper Intermediate / Advance English level.
-                6 years with React.js, 5 years with Node.js and JavaScript in fintech, banks and insurance companies.
-              </strong>
-            </p>
+        </li>
+
+        <li class="job" data-tags="react next ts">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-venu">
+            <span class="job-meta">
+              <span class="job-dates">Jun 2024 – now</span>
+              <span class="job-company">Kake<span class="job-client"> → Venu</span></span>
+              <span class="job-role">Senior Front-End Engineer · High-traffic video streaming</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-venu">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Built a high-traffic streaming platform on Next.js with a versatile video player for live streams, movies and on-demand shows.</li>
+                <li>Delivered a React / TypeScript app using Redux and Zustand for state and Tailwind for a consistent, responsive UI.</li>
+                <li>Built in-app analytics to track and visualize user interactions; partnered with design in Figma on a reusable component library.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react next">Next.js</li><li data-f="react">React</li><li data-f="ts">TypeScript</li><li>Redux</li><li>Zustand</li><li>Tailwind</li><li>Figma</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="timeline-wrap">
-          <div class="timeline-bg">
-            <section class="timeline profile-infos">
+        </li>
 
-              <div class="line row timeline-margin">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height">
-                </div>
-                <div class="col-md-8 content-wrap bg1">
-                  <h2 class="section-title">Profile</h2>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Full Name</h3>
-                    <p>Jeremy Andrés López Pérez</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Born</h3>
-                    <p>26 May 1994 - Santo Domingo, Dominican Republic</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Email</h3>
-                    <p>jeremyandres.lopez@gmail.com</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-            </section>
-            <section class="timeline education" id="education">
-
-              <div class="line row timeline-margin">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height">
-                </div>
-                <div class="col-md-8 content-wrap bg1">
-                  <h2 class="section-title">Education</h2>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content line-content-education">
-                    <h3 class="section-item-title-1">Software Engineer</h3>
-                    <h4 class="graduation-time"><i class="fa fa-university"></i> Universidad APEC - <span
-                        class="graduation-date">Graduation year 2018</span></h4>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-education "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content line-content-education">
-                    <h3 class="section-item-title-1">Software Technician</h3>
-                    <h4 class="graduation-time"><i class="fa fa-university"></i> Instituto Tecnológico de las Américas -
-                      <span class="graduation-date">Graduation year 2014</span></h4>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-            </section>
-
-            <section class="timeline work-experience" id="works">
-              <div class="line row timeline-margin">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <h2 class="section-title">Work Experience</h2>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content line-content-education">
-                    <h3 class="section-item-title-1">Truelogic Software.</h3>
-                    <h4 class="job"><i class="fa fa-flag"></i> Senior Full Stack Web Developer - <span class="job-date">October 2020 - Current</span></h4>
-                    <div class="job-description">
-                      <p> <strong>Technologies:</strong> Material-ui, Jest, React.js, TailwindCSS, TypeScript, Storybook, Git, Next.js, Node.js, Express, Sequelize, Knex, GraphQL, MongoDB, PostgreSQL </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content line-content-education">
-                    <h3 class="section-item-title-1">Avantica / Encora Technologies</h3>
-                    <h4 class="job"><i class="fa fa-flag"></i> Senior Full Stack Web Developer - <span class="job-date">January 2018 - October 2020</span></h4>
-                    <div class="job-description">
-                      <p><strong>Technologies: </strong>TypeScript, JavaScript, ReactJS, NodeJS, Webpack, Git, Jenkins</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-           
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content line-content-education">
-                    <h3 class="section-item-title-1">Insurance Company</h3>
-                    <h4 class="job"><i class="fa fa-flag"></i> Full Stack Web Developer - <span class="job-date">January
-                        2016 - January 2018</span></h4>
-                    <div class="job-description">
-                      <p>
-                        <strong>Technologies:</strong> Java, Thymeleaf, Spring Data, React, React-Native, Redux-Saga, PL/SQL, MongoDB, Docker, Azure, Git, Scrum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>              
-            </section>
-            <section class="timeline skills" id="skills">
-
-              <div class="line row timeline-margin">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <h2 class="section-title">Skills</h2>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Professional Skills</h3>
-                    <ul class="skills-list">
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
-                          </div>
-                          <span class="progress-type">Comunication</span>
-                          <span class="progress-completed">90%</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-2" role="progressbar" data-percent="90%"
-                            style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
-                          </div>
-                          <span class="progress-type">Leadership</span>
-                          <span class="progress-completed">90%</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="progress" title="Doing my best!">
-                          <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%"
-                            style="width: 85%;">
-                            <span class="sr-only">85% Complete</span>
-                          </div>
-                          <span class="progress-type">Confidence</span>
-                          <span class="progress-completed">85%</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="progress" title="Doing my best!">
-                          <div class="progress-bar" role="progressbar" data-percent="93%"
-                            style="width: 93%;">
-                            <span class="sr-only">93% Complete</span>
-                          </div>
-                          <span class="progress-type">Fellowship</span>
-                          <span class="progress-completed">93%</span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Code Skills</h3>
-                    <ul class="skills-list">
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 93%;">
-                            <span class="sr-only">93% Complete</span>
-                          </div>
-                          <span class="progress-type">React.js</span>
-                          <span class="progress-completed">93%</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-3" data-percent="90%" role="progressbar"
-                            style="width: 85%;">
-                            <span class="sr-only">85% Complete</span>
-                          </div>
-                          <span class="progress-type">JavaScript</span>
-                          <span class="progress-completed">85%</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-2" data-percent="70%" role="progressbar"
-                            style="width: 70%;">
-                            <span class="sr-only">70% Complete</span>
-                          </div>
-                          <span class="progress-type">Vue.js</span>
-                          <span class="progress-completed">70%</span>
-                        </div>
-                      </li>
-                      <li>
-                      </li>
-                        <div class="progress">
-                          <div class="progress-bar" data-percent="75%" role="progressbar"
-                            style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                          </div>
-                          <span class="progress-type">Node.js</span>
-                          <span class="progress-completed">80%</span>
-                        </div>
-                      </li>                      
-                      <li>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-2" data-percent="70%" role="progressbar" style="width: 70%;">
-                            <span class="sr-only">70% Complete</span>
-                          </div>
-                          <span class="progress-type">CSS3</span>
-                          <span class="progress-completed">70%</span>
-                        </div>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-            </section>
-
-            <section class="timeline" id="interests">
-              <div class="line row timeline-margin">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <h2 class="section-title">Interests</h2>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Games</h3> 
-                    <p>I love playing video games, online games are my favorites. Most of the time I play MMORPGs and tactical games. But, I also play FPS games.</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Investment</h3>
-                    <p>I enjoy everything related to investment, from cryptocurrencies to market bulls and bears.</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-              <div class="line row">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="section-item-title-1">Netflix and Chill</h3>
-                    <p>Who doesn't?</p>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-            </section>
-
-            <section class="timeline profile-infos">
-              <div class="line row timeline-margin timeline-margin-big">
-                <div class="content-wrap">
-                  <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                  <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height"></div>
-                  <div class="col-md-9 bg1 full-height"></div>
-                </div>
-              </div>
-
-              <div class="line row line-thank-you">
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-                <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
-                <div class="col-md-8 content-wrap bg1">
-                  <div class="line-content">
-                    <h3 class="thank-you">Thank You!</h3>
-                  </div>
-                </div>
-                <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              </div>
-            </section>
+        <li class="job" data-tags="react next ts">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-beachbody">
+            <span class="job-meta">
+              <span class="job-dates">Jun 2024 – now</span>
+              <span class="job-company">Kake<span class="job-client"> → Beachbody</span></span>
+              <span class="job-role">Senior Front-End Engineer · Large-scale web application</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-beachbody">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Designed an optimized component architecture for a large-scale, high-concurrency web app.</li>
+                <li>Improved SEO for discoverability and search rankings.</li>
+                <li>Removed obsolete React code, cutting bundle size by 15%.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li data-f="ts">TypeScript</li><li data-f="react next">Next.js</li><li>Tailwind</li><li>Redux</li><li>REST</li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </li>
 
-        <footer id="footer" class="row">
-          <p class="quote">“Writing code is my passion, building software is what I
-            love”</p>
-          <!-- <p class="author">Jeremy López</p> -->
-        </footer>
+        <li class="job" data-tags="react ts">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-somm">
+            <span class="job-meta">
+              <span class="job-dates">Jun 2024 – now</span>
+              <span class="job-company">Kake<span class="job-client"> → Sommsation</span></span>
+              <span class="job-role">Senior Front-End Engineer · Headless-CMS web experience</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-somm">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Designed Contentstack content models — content types, global fields and taxonomies — for a modular content architecture.</li>
+                <li>Built React interfaces backed by the headless CMS for flexible, content-driven pages.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li>Contentstack</li><li data-f="ts">TypeScript</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="job" data-tags="react next ts node python ai cloud">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-truelogic">
+            <span class="job-meta">
+              <span class="job-dates">Oct 2020 – Jun 2024</span>
+              <span class="job-company">Truelogic Software</span>
+              <span class="job-role">Senior Full-Stack Engineer · Enterprise finance &amp; commerce</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-truelogic">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Designed and deployed React / Next.js (12 → 13) apps for enterprise financial workflows, using ISR and the App Router.</li>
+                <li>Built a custom GPT solution on OpenAI and Anthropic models to process and analyze company-specific data.</li>
+                <li>Built APIs with FastAPI, Apollo GraphQL and REST (Node.js / Express) on PostgreSQL; ran workloads on Kubernetes with Helm.</li>
+                <li>Designed a React design system documented in Storybook, integrating Material UI and Tailwind.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li data-f="ts">TypeScript</li><li data-f="react next">Next.js</li><li data-f="python">FastAPI</li><li>Apollo GraphQL</li><li data-f="node">Node.js</li><li data-f="python">Python</li><li>PostgreSQL</li><li data-f="cloud">Docker</li><li data-f="cloud">Kubernetes</li><li data-f="cloud">Helm</li><li data-f="ai">OpenAI</li><li data-f="ai">Anthropic</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="job" data-tags="react next ts node python ai">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-mileiq">
+            <span class="job-meta">
+              <span class="job-dates">Feb 2022 – Dec 2023</span>
+              <span class="job-company">MileIQ</span>
+              <span class="job-role">Senior Full-Stack Engineer · Mileage tracking</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-mileiq">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Built a mobile-responsive mileage-tracking app on Next.js 14 with React Server Components.</li>
+                <li>Led AI initiatives in Python: an OpenAI-powered chatbot and data classification with Pandas.</li>
+                <li>Migrated the mapping stack from Bing Maps to Google Maps, including routing and directions.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li data-f="react next">Next.js</li><li data-f="ts">TypeScript</li><li data-f="node">Node.js/NestJS</li><li data-f="python">Python</li><li>GraphQL</li><li data-f="ai">OpenAI</li><li data-f="python">Pandas</li><li>Cypress</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="job" data-tags="react ts node cloud">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-encora">
+            <span class="job-meta">
+              <span class="job-dates">Jan 2020 – Oct 2020</span>
+              <span class="job-company">Encora Inc.</span>
+              <span class="job-role">Full-Stack Engineer · Platform modernization</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-encora">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Migrated a large codebase from Webpack 4 to 5, introducing Module Federation to share components across apps.</li>
+                <li>Moved a large React codebase from classes to hooks and added useTransition / Suspense UX improvements.</li>
+                <li>Implemented AWS Cognito authentication.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li data-f="ts">TypeScript</li><li>Material UI</li><li>Webpack</li><li data-f="node">Node.js</li><li>RTL</li><li data-f="cloud">AWS</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="job" data-tags="react node python ai cloud">
+          <button type="button" class="job-head" aria-expanded="false" aria-controls="job-humano">
+            <span class="job-meta">
+              <span class="job-dates">Jan 2018 – Jan 2020</span>
+              <span class="job-company">Grupo Humano</span>
+              <span class="job-role">Full-Stack Engineer · Health · Santo Domingo, DR</span>
+            </span>
+            <span class="job-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <div class="job-body" id="job-humano">
+            <div class="job-body-inner">
+              <ul class="bullets">
+                <li>Architected a React app powering an AI-driven kiosk that processed handwritten medical documents with TensorFlow computer-vision models.</li>
+                <li>Delivered REST APIs across Node.js / Express and Java 8 / Spring Boot.</li>
+                <li>Built Jenkins CI/CD pipelines; used React Native with Redux for mobile features.</li>
+              </ul>
+              <ul class="chips">
+                <li data-f="react">React</li><li data-f="react">React Native</li><li>Redux</li><li data-f="ai python">TensorFlow</li><li data-f="node">Node.js</li><li data-f="node">Express</li><li>Java 8</li><li>Spring Boot</li><li>Jenkins</li><li data-f="cloud">AWS</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-end">
+          <div class="mini-card">
+            <span class="job-dates">2012 – 2018 · Education</span>
+            <strong>B.Sc. Software Engineering — UNAPEC</strong>
+            <span class="muted">Associate, Software Engineering — ITLA</span>
+          </div>
+          <div class="mini-card">
+            <span class="job-dates">2019 · Certification</span>
+            <strong>Scrum Foundation Professional</strong>
+            <span class="muted">Spanish (native) · English (professional)</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-tight container">
+      <div class="contact-panel reveal">
+        <div class="ring ring-lg" aria-hidden="true"></div>
+        <div class="ring ring-sm" aria-hidden="true"></div>
+        <h2 class="contact-title">Building something with AI? Let's talk.</h2>
+        <div class="contact-actions">
+          <button type="button" class="btn btn-dark" data-copy="jeremyandres.lopez@gmail.com">
+            <span>jeremyandres.lopez@gmail.com</span>
+            <span class="copy-badge" data-copy-label aria-live="polite">copy</span>
+          </button>
+          <a href="https://www.linkedin.com/in/jalopez526/" class="btn btn-outline-dark" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="assets/Jeremy-Lopez-Resume.pdf" class="btn btn-outline-dark" download>Résumé (PDF)</a>
+        </div>
       </div>
-    </div>
-  </section>
-  <script src="vendor/jquery-1.11.1.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="vendor/jquery.easing.min.js"></script>
-  <script src="vendor/jquery.mousewheel.min.js"></script>
-  <script src="vendor/jquery.nicescroll.min.js"></script>
-  <script src="vendor/waypoints.min.js"></script>
-  <script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
-  <script src="vendor/jquery.bxslider.min.js"></script>
-  <script src="vendor/jquery.validate.min.js"></script>
-  <script src="vendor/placeholders.jquery.min.js"></script>
-  <script src="vendor/cross-browser.js"></script>
-  <script src="js/main.js"></script>
-</body>
+    </section>
+  </main>
 
+  <footer class="site-footer container">
+    <span>© <span data-year>2026</span> Jeremy López</span>
+  </footer>
+</body>
 </html>
